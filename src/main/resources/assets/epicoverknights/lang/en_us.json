@@ -7,5 +7,14 @@
   "item.epicoverknights.bronze_stylet_blade": "Bronze Stiletto Blade",
   "item.epicoverknights.iron_stylet_blade": "Iron Stiletto Blade",
   "item.epicoverknights.steel_stylet_blade": "Steel Stiletto Blade",
-  "tooltype.overgeared.stylet": "Stiletto"
+  "tooltype.overgeared.stylet": "Stiletto",
+  "item.epicoverknights.copper_shortsword_blade": "Copper Short Sword Blade",
+  "item.epicoverknights.gold_shortsword_blade": "Gold Short Sword Blade",
+  "item.epicoverknights.tin_shortsword_blade": "Tin Short Sword Blade",
+  "item.epicoverknights.stone_shortsword_blade": "Stone Short Sword Blade",
+  "item.epicoverknights.silver_shortsword_blade": "Silver Short Sword Blade",
+  "item.epicoverknights.bronze_shortsword_blade": "Bronze Short Sword Blade",
+  "item.epicoverknights.iron_shortsword_blade": "Iron Short Sword Blade",
+  "item.epicoverknights.steel_shortsword_blade": "Steel Short Sword Blade",
+  "tooltype.overgeared.shortsword": "Short Sword"
 }

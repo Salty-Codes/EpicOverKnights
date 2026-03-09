@@ -24,6 +24,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BRONZE_STYLET_BLADE);
         simpleItem(ModItems.IRON_STYLET_BLADE);
         simpleItem(ModItems.STEEL_STYLET_BLADE);
+
+        simpleItem(ModItems.BRONZE_SHORTSWORD_BLADE);
+        simpleItem(ModItems.COPPER_SHORTSWORD_BLADE);
+        simpleItem(ModItems.GOLD_SHORTSWORD_BLADE);
+        simpleItem(ModItems.IRON_SHORTSWORD_BLADE);
+        simpleItem(ModItems.SILVER_SHORTSWORD_BLADE);
+        simpleItem(ModItems.STEEL_SHORTSWORD_BLADE);
+        simpleItem(ModItems.STONE_SHORTSWORD_BLADE);
+        simpleItem(ModItems.TIN_SHORTSWORD_BLADE);
     }
 
     private void simpleItem(RegistryObject<Item> item) {
