@@ -35,6 +35,16 @@ public class RecipeRemover {
             ResourceLocation.fromNamespaceAndPath("magistuarmory", "tin_shortsword"),
             ResourceLocation.fromNamespaceAndPath("magistuarmory", "diamond_shortsword"),
 
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "bronze_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "copper_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "gold_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "iron_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "silver_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "stone_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "tin_katzbalger"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "diamond_katzbalger"),
+
             ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_boots"),
             ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_leggings"),
             ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_chestplate"),
