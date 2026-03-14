@@ -36,6 +36,15 @@ public class ModCreativeModeTabs {
             event.accept(ModItems.STEEL_KATZBALGER_BLADE.get());
             event.accept(ModItems.STONE_KATZBALGER_BLADE.get());
             event.accept(ModItems.TIN_KATZBALGER_BLADE.get());
+
+            event.accept(ModItems.BRONZE_PIKE_BLADE.get());
+            event.accept(ModItems.COPPER_PIKE_BLADE.get());
+            event.accept(ModItems.GOLD_PIKE_BLADE.get());
+            event.accept(ModItems.IRON_PIKE_BLADE.get());
+            event.accept(ModItems.SILVER_PIKE_BLADE.get());
+            event.accept(ModItems.STEEL_PIKE_BLADE.get());
+            event.accept(ModItems.STONE_PIKE_BLADE.get());
+            event.accept(ModItems.TIN_PIKE_BLADE.get());
         }
     }
 }

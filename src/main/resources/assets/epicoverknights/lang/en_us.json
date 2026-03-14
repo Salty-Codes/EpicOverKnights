@@ -25,5 +25,14 @@
   "item.epicoverknights.bronze_katzbalger_blade": "Bronze Katzbalger Blade",
   "item.epicoverknights.iron_katzbalger_blade": "Iron Katzbalger Blade",
   "item.epicoverknights.steel_katzbalger_blade": "Steel Katzbalger Blade",
-  "tooltype.overgeared.katzbalger": "Katzbalger"
+  "tooltype.overgeared.katzbalger": "Katzbalger",
+  "item.epicoverknights.copper_pike_blade": "Copper Pike Blade",
+  "item.epicoverknights.gold_pike_blade": "Gold Pike Blade",
+  "item.epicoverknights.tin_pike_blade": "Tin Pike Blade",
+  "item.epicoverknights.stone_pike_blade": "Stone Pike Blade",
+  "item.epicoverknights.silver_pike_blade": "Silver Pike Blade",
+  "item.epicoverknights.bronze_pike_blade": "Bronze Pike Blade",
+  "item.epicoverknights.iron_pike_blade": "Iron Pike Blade",
+  "item.epicoverknights.steel_pike_blade": "Steel Pike Blade",
+  "tooltype.overgeared.pike": "Pike"
 }

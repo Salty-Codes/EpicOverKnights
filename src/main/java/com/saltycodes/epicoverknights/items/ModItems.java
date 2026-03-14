@@ -38,6 +38,14 @@ public class ModItems {
     public static final RegistryObject<Item> STONE_KATZBALGER_BLADE = ITEMS.register("stone_katzbalger_blade", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIN_KATZBALGER_BLADE = ITEMS.register("tin_katzbalger_blade", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BRONZE_PIKE_BLADE = ITEMS.register("bronze_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_PIKE_BLADE = ITEMS.register("copper_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_PIKE_BLADE = ITEMS.register("gold_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_PIKE_BLADE = ITEMS.register("iron_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_PIKE_BLADE = ITEMS.register("silver_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_PIKE_BLADE = ITEMS.register("steel_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STONE_PIKE_BLADE = ITEMS.register("stone_pike_blade", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIN_PIKE_BLADE = ITEMS.register("tin_pike_blade", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
