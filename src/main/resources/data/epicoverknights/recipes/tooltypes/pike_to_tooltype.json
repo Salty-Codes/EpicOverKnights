@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:item_to_tooltype",
+  "item": [
+    {
+      "item": "epicoverknights:copper_pike_blade"
+    },
+    {
+      "item": "epicoverknights:tin_pike_blade"
+    },
+    {
+      "item": "epicoverknights:bronze_pike_blade"
+    },
+    {
+      "item": "epicoverknights:iron_pike_blade"
+    },
+    {
+      "item": "epicoverknights:gold_pike_blade"
+    },
+    {
+      "item": "epicoverknights:silver_pike_blade"
+    },
+    {
+      "item": "epicoverknights:steel_pike_blade"
+    }
+  ],
+  "tooltype": "pike"
+}
