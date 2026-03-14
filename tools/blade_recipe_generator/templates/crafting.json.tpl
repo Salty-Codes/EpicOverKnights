@@ -6,6 +6,9 @@
       "item": "__BLADE_ITEM__"
     },
     {
+        "item": "minecraft:stick"
+    },
+    {
       "item": "magistuarmory:hilt"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "type": "overgeared:rock_knapping",
   "pattern": [
-    " x ",
+    "   ",
     " x ",
     "   "
   ],

@@ -18,7 +18,7 @@
   "need_quenching": true,
   "needs_minigame": true,
   "pattern": [
-    " # ",
+    "   ",
     " # ",
     "   "
   ],
