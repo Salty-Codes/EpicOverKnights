@@ -52,5 +52,14 @@
   "item.epicoverknights.bronze_bastardsword_blade": "Bronze Bastard Sword Blade",
   "item.epicoverknights.iron_bastardsword_blade": "Iron Bastard Sword Blade",
   "item.epicoverknights.steel_bastardsword_blade": "Steel Bastard Sword Blade",
-  "tooltype.overgeared.bastardsword": "Bastard Sword"
+  "tooltype.overgeared.bastardsword": "Bastard Sword",
+  "item.epicoverknights.copper_estoc_blade": "Copper Estoc Blade",
+  "item.epicoverknights.gold_estoc_blade": "Gold Estoc Blade",
+  "item.epicoverknights.tin_estoc_blade": "Tin Estoc Blade",
+  "item.epicoverknights.stone_estoc_blade": "Stone Estoc Blade",
+  "item.epicoverknights.silver_estoc_blade": "Silver Estoc Blade",
+  "item.epicoverknights.bronze_estoc_blade": "Bronze Estoc Blade",
+  "item.epicoverknights.iron_estoc_blade": "Iron Estoc Blade",
+  "item.epicoverknights.steel_estoc_blade": "Steel Estoc Blade",
+  "tooltype.overgeared.estoc": "Estoc"
 }

@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:item_to_tooltype",
+  "item": [
+    {
+      "item": "epicoverknights:copper_estoc_blade"
+    },
+    {
+      "item": "epicoverknights:tin_estoc_blade"
+    },
+    {
+      "item": "epicoverknights:bronze_estoc_blade"
+    },
+    {
+      "item": "epicoverknights:iron_estoc_blade"
+    },
+    {
+      "item": "epicoverknights:gold_estoc_blade"
+    },
+    {
+      "item": "epicoverknights:silver_estoc_blade"
+    },
+    {
+      "item": "epicoverknights:steel_estoc_blade"
+    }
+  ],
+  "tooltype": "estoc"
+}
