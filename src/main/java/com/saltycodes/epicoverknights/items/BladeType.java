@@ -12,7 +12,8 @@ public enum BladeType {
     PIKE("pike"),
     AHLSPIESS("ahlspiess"),
     BASTARDSWORD("bastardsword"),
-    ESTOC("estoc");
+    ESTOC("estoc"),
+    CLAYMORE("claymore");
 
     private final String name;
 

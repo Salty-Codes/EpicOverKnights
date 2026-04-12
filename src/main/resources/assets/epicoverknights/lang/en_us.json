@@ -61,5 +61,14 @@
   "item.epicoverknights.bronze_estoc_blade": "Bronze Estoc Blade",
   "item.epicoverknights.iron_estoc_blade": "Iron Estoc Blade",
   "item.epicoverknights.steel_estoc_blade": "Steel Estoc Blade",
-  "tooltype.overgeared.estoc": "Estoc"
+  "tooltype.overgeared.estoc": "Estoc",
+  "item.epicoverknights.copper_claymore_blade": "Copper Claymore Blade",
+  "item.epicoverknights.gold_claymore_blade": "Gold Claymore Blade",
+  "item.epicoverknights.tin_claymore_blade": "Tin Claymore Blade",
+  "item.epicoverknights.stone_claymore_blade": "Stone Claymore Blade",
+  "item.epicoverknights.silver_claymore_blade": "Silver Claymore Blade",
+  "item.epicoverknights.bronze_claymore_blade": "Bronze Claymore Blade",
+  "item.epicoverknights.iron_claymore_blade": "Iron Claymore Blade",
+  "item.epicoverknights.steel_claymore_blade": "Steel Claymore Blade",
+  "tooltype.overgeared.claymore": "Claymore"
 }
