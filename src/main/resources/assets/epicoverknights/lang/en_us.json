@@ -43,5 +43,14 @@
   "item.epicoverknights.bronze_ahlspiess_blade": "Bronze Ahlspiess Blade",
   "item.epicoverknights.iron_ahlspiess_blade": "Iron Ahlspiess Blade",
   "item.epicoverknights.steel_ahlspiess_blade": "Steel Ahlspiess Blade",
-  "tooltype.overgeared.ahlspiess": "Ahlspiess"
+  "tooltype.overgeared.ahlspiess": "Ahlspiess",
+  "item.epicoverknights.copper_bastardsword_blade": "Copper Bastard Sword Blade",
+  "item.epicoverknights.gold_bastardsword_blade": "Gold Bastard Sword Blade",
+  "item.epicoverknights.tin_bastardsword_blade": "Tin Bastard Sword Blade",
+  "item.epicoverknights.stone_bastardsword_blade": "Stone Bastard Sword Blade",
+  "item.epicoverknights.silver_bastardsword_blade": "Silver Bastard Sword Blade",
+  "item.epicoverknights.bronze_bastardsword_blade": "Bronze Bastard Sword Blade",
+  "item.epicoverknights.iron_bastardsword_blade": "Iron Bastard Sword Blade",
+  "item.epicoverknights.steel_bastardsword_blade": "Steel Bastard Sword Blade",
+  "tooltype.overgeared.bastardsword": "Bastard Sword"
 }
