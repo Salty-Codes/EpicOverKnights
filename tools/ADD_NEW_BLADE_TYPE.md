@@ -108,7 +108,7 @@ by replacing `#` with `x` in the same positions.
 
 | Parameter            | Guidance                                                               |
 |----------------------|------------------------------------------------------------------------|
-| `--hammering`        | Complexity. Simple: 3, Medium: 4, Complex: 5, Very complex (3 ingots): 7 |
+| `--hammering`        | Formula: `2 + total_ingots`. For blade-from-blade: count ingots from the source blade's recipe + ingots added here. Examples: 1 ingot→3, 2→4, 3→5, 4→6. |
 | `--pattern-row1/2/3` | Shape of the 3×3 grid. `#` = hammer strike position.                  |
 
 **Existing patterns for reference:**
@@ -136,11 +136,11 @@ Pattern: "I  " / "#  " / "   "   hammering: 5
 
 ## Step 8 — Decide on the weapon crafting handle [REQUIRED]
 
-**Standard handle** (blade + hilt → weapon):
-Most weapons use `magistuarmory:hilt`. This is the default.
+**Always check the original Epic Knights recipe** to determine the correct handle — do NOT default to `magistuarmory:hilt` without verifying. Look for the ingredient key that is neither an ingot nor a shortsword.
 
-**Different handle:**
-If the weapon uses a different handle, pass `--crafting-handle magistuarmory:longsword_grip`.
+Known handles: `magistuarmory:hilt` (most swords), `magistuarmory:pole` (polearms/axes), `magistuarmory:longsword_grip` (longswords).
+
+Pass a non-default handle via `--crafting-handle magistuarmory:pole`.
 
 The casting amount should reflect the total ingot cost of the blade:
 - 1 ingot = 9 units (default)
