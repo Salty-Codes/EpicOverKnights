@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "need_quenching": false,
+  "needs_minigame": false,
+  "pattern": [
+    "#  ",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "item": "epicoverknights:silver_plate"
+  },
+  "show_notification": true
+}

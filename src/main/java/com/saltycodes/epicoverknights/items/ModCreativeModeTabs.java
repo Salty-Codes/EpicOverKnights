@@ -15,6 +15,10 @@ public class ModCreativeModeTabs {
                     event.accept(ModItems.getBlade(type, material).get());
                 }
             }
+            event.accept(ModItems.GOLD_PLATE.get());
+            event.accept(ModItems.BRONZE_PLATE.get());
+            event.accept(ModItems.TIN_PLATE.get());
+            event.accept(ModItems.SILVER_PLATE.get());
         }
     }
 }

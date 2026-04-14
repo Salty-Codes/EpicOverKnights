@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "stone",
+  "hammering": 3,
+  "has_quality": false,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "need_quenching": false,
+  "needs_minigame": false,
+  "pattern": [
+    "#  ",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "item": "epicoverknights:tin_plate"
+  },
+  "show_notification": true
+}

@@ -23,6 +23,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 simpleItem(ModItems.getBlade(type, material));
             }
         }
+        simpleItem(ModItems.GOLD_PLATE);
+        simpleItem(ModItems.BRONZE_PLATE);
+        simpleItem(ModItems.TIN_PLATE);
+        simpleItem(ModItems.SILVER_PLATE);
     }
 
     private void simpleItem(RegistryObject<Item> item) {

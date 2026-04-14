@@ -153,5 +153,9 @@
   "item.epicoverknights.iron_messer_sword_blade": "Messer Sword Blade",
   "tooltype.overgeared.messer_sword": "Messer Sword",
   "item.epicoverknights.steel_heavy_crossbow_prodd": "Heavy Crossbow Prodd",
-  "tooltype.overgeared.heavy_crossbow": "Heavy Crossbow"
+  "tooltype.overgeared.heavy_crossbow": "Heavy Crossbow",
+  "item.epicoverknights.gold_plate": "Gold Plate",
+  "item.epicoverknights.bronze_plate": "Bronze Plate",
+  "item.epicoverknights.tin_plate": "Tin Plate",
+  "item.epicoverknights.silver_plate": "Silver Plate"
 }

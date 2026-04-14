@@ -42,6 +42,16 @@ public class ModItems {
         return BLADES.get(type).get(material);
     }
 
+    // Standalone plate items
+    public static final RegistryObject<Item> GOLD_PLATE = ITEMS.register("gold_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_PLATE = ITEMS.register("bronze_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIN_PLATE = ITEMS.register("tin_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_PLATE = ITEMS.register("silver_plate",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }
