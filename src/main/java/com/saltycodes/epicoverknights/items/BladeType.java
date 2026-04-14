@@ -34,13 +34,20 @@ public enum BladeType {
     BLACKSMITH_HAMMER("blacksmith_hammer", BladeMaterial.STEEL),
     BARBED_CLUB("barbed_club", BladeMaterial.STEEL),
     PITCHFORK("pitchfork", BladeMaterial.STEEL),
-    MESSER_SWORD("messer_sword", BladeMaterial.IRON);
+    MESSER_SWORD("messer_sword", BladeMaterial.IRON),
+    HEAVY_CROSSBOW("heavy_crossbow", "_prodd", BladeMaterial.STEEL);
 
     private final String name;
+    private final String suffix;
     private final Set<BladeMaterial> materials;
 
     BladeType(String name, BladeMaterial... allowedMaterials) {
+        this(name, "_blade", allowedMaterials);
+    }
+
+    BladeType(String name, String suffix, BladeMaterial... allowedMaterials) {
         this.name = name;
+        this.suffix = suffix;
         if (allowedMaterials.length == 0) {
             this.materials = Collections.unmodifiableSet(EnumSet.allOf(BladeMaterial.class));
         } else {
@@ -50,6 +57,10 @@ public enum BladeType {
 
     public String getName() {
         return name;
+    }
+
+    public String getSuffix() {
+        return suffix;
     }
 
     public Set<BladeMaterial> getMaterials() {

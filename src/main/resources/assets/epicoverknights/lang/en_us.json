@@ -144,12 +144,14 @@
   "item.epicoverknights.iron_guisarme_blade": "Iron Guisarme Blade",
   "item.epicoverknights.steel_guisarme_blade": "Steel Guisarme Blade",
   "tooltype.overgeared.guisarme": "Guisarme",
-  "item.epicoverknights.steel_blacksmith_hammer_blade": "Steel Blacksmith Hammer Blade",
+  "item.epicoverknights.steel_blacksmith_hammer_blade": "Blacksmith Hammer Blade",
   "tooltype.overgeared.blacksmith_hammer": "Blacksmith Hammer",
-  "item.epicoverknights.steel_barbed_club_blade": "Steel Barbed Club Blade",
+  "item.epicoverknights.steel_barbed_club_blade": "Barbed Club Blade",
   "tooltype.overgeared.barbed_club": "Barbed Club",
-  "item.epicoverknights.steel_pitchfork_blade": "Steel Pitchfork Blade",
+  "item.epicoverknights.steel_pitchfork_blade": "Pitchfork Blade",
   "tooltype.overgeared.pitchfork": "Pitchfork",
-  "item.epicoverknights.iron_messer_sword_blade": "Iron Messer Sword Blade",
-  "tooltype.overgeared.messer_sword": "Messer Sword"
+  "item.epicoverknights.iron_messer_sword_blade": "Messer Sword Blade",
+  "tooltype.overgeared.messer_sword": "Messer Sword",
+  "item.epicoverknights.steel_heavy_crossbow_prodd": "Heavy Crossbow Prodd",
+  "tooltype.overgeared.heavy_crossbow": "Heavy Crossbow"
 }

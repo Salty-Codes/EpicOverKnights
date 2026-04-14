@@ -27,7 +27,7 @@ public class ModItems {
         for (BladeType type : BladeType.values()) {
             Map<BladeMaterial, RegistryObject<Item>> materialMap = new EnumMap<>(BladeMaterial.class);
             for (BladeMaterial material : type.getMaterials()) {
-                String id = material.getName() + "_" + type.getName() + "_blade";
+                String id = material.getName() + "_" + type.getName() + type.getSuffix();
                 materialMap.put(material, ITEMS.register(id, () -> new Item(new Item.Properties())));
             }
             blades.put(type, Collections.unmodifiableMap(materialMap));
