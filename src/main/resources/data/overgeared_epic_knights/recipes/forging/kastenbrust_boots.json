@@ -1,11 +1,19 @@
 {
   "type": "overgeared:forging",
   "category": "armor",
+  "blueprint": [
+    "kastenbrust_boots"
+  ],
+  "requires_blueprint": false,
   "hammering": 8,
   "has_quality": true,
   "key": {
-    "P": { "item": "overgeared:steel_plate" },
-    "S": { "item": "magistuarmory:small_steel_plate" }
+    "P": {
+      "item": "overgeared:steel_plate"
+    },
+    "S": {
+      "item": "magistuarmory:small_steel_plate"
+    }
   },
   "need_quenching": true,
   "needs_minigame": true,

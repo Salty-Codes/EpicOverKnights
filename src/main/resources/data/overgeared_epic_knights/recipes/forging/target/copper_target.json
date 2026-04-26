@@ -1,11 +1,19 @@
 {
   "type": "overgeared:forging",
   "category": "misc",
+  "blueprint": [
+    "target"
+  ],
+  "requires_blueprint": false,
   "hammering": 7,
   "has_quality": true,
   "key": {
-    "P": { "item": "overgeared:copper_plate" },
-    "S": { "tag": "forge:ingots/steel" }
+    "P": {
+      "item": "overgeared:copper_plate"
+    },
+    "S": {
+      "tag": "forge:ingots/steel"
+    }
   },
   "need_quenching": true,
   "needs_minigame": true,

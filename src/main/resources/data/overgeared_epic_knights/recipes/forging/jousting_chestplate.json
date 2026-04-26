@@ -1,6 +1,10 @@
 {
   "type": "overgeared:forging",
   "category": "armor",
+  "blueprint": [
+    "jousting_chestplate"
+  ],
+  "requires_blueprint": false,
   "hammering": 5,
   "has_quality": true,
   "key": {

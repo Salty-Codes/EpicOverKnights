@@ -1,11 +1,19 @@
 {
   "type": "overgeared:forging",
   "category": "armor",
+  "blueprint": [
+    "xivcenturyknight_chestplate"
+  ],
+  "requires_blueprint": false,
   "hammering": 7,
   "has_quality": true,
   "key": {
-    "P": { "item": "overgeared:steel_plate" },
-    "C": { "item": "magistuarmory:steel_chainmail" }
+    "P": {
+      "item": "overgeared:steel_plate"
+    },
+    "C": {
+      "item": "magistuarmory:steel_chainmail"
+    }
   },
   "need_quenching": true,
   "needs_minigame": true,
