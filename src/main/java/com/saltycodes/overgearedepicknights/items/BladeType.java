@@ -1,0 +1,68 @@
+package com.saltycodes.overgearedepicknights.items;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.EnumSet;
+import java.util.Set;
+
+/**
+ * Add a new entry here to automatically register blades,
+ * models, creative tab entries, and recipe removals for all materials.
+ *
+ * To restrict a blade type to specific materials, pass them as varargs:
+ *   MYTYPE("mytype", BladeMaterial.STEEL)
+ * Omit the varargs to allow all materials (default).
+ */
+public enum BladeType {
+    STYLET("stylet"),
+    SHORTSWORD("shortsword"),
+    KATZBALGER("katzbalger"),
+    PIKE("pike"),
+    AHLSPIESS("ahlspiess"),
+    BASTARDSWORD("bastardsword"),
+    ESTOC("estoc"),
+    CLAYMORE("claymore"),
+    ZWEIHANDER("zweihander"),
+    LOCHABERAXE("lochaberaxe"),
+    CONCAVEHALBERD("concavehalberd"),
+    HEAVYMACE("heavymace"),
+    HEAVYWARHAMMER("heavywarhammer"),
+    LUCERNHAMMER("lucernhammer"),
+    MORGENSTERN("morgenstern"),
+    GUISARME("guisarme"),
+    BLACKSMITH_HAMMER("blacksmith_hammer", BladeMaterial.STEEL),
+    BARBED_CLUB("barbed_club", BladeMaterial.STEEL),
+    PITCHFORK("pitchfork", BladeMaterial.STEEL),
+    MESSER_SWORD("messer_sword", BladeMaterial.IRON),
+    HEAVY_CROSSBOW("heavy_crossbow", "_prodd", BladeMaterial.STEEL);
+
+    private final String name;
+    private final String suffix;
+    private final Set<BladeMaterial> materials;
+
+    BladeType(String name, BladeMaterial... allowedMaterials) {
+        this(name, "_blade", allowedMaterials);
+    }
+
+    BladeType(String name, String suffix, BladeMaterial... allowedMaterials) {
+        this.name = name;
+        this.suffix = suffix;
+        if (allowedMaterials.length == 0) {
+            this.materials = Collections.unmodifiableSet(EnumSet.allOf(BladeMaterial.class));
+        } else {
+            this.materials = Collections.unmodifiableSet(EnumSet.copyOf(Arrays.asList(allowedMaterials)));
+        }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSuffix() {
+        return suffix;
+    }
+
+    public Set<BladeMaterial> getMaterials() {
+        return materials;
+    }
+}

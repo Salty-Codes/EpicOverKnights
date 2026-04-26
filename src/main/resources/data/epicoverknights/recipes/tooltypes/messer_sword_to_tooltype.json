@@ -1,9 +1,0 @@
-{
-  "type": "overgeared:item_to_tooltype",
-  "item": [
-    {
-      "item": "epicoverknights:iron_messer_sword_blade"
-    }
-  ],
-  "tooltype": "messer_sword"
-}

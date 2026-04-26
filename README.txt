@@ -1,13 +1,13 @@
-EpicOverKnights
-===============
+Overgeared x Epic Knights Compat
+================================
 A Minecraft Forge compatibility mod for Minecraft 1.20.1
 
 DESCRIPTION
 -----------
-EpicOverKnights bridges Epic Knights: Shields, Armor and Weapons (by Magistuarmory)
-and Overgeared. It adds the crafting recipes needed to forge Epic Knights weapons
-and armor using Overgeared's material system (forging, casting, assembly), and removes
-the original vanilla crafting recipes where appropriate.
+Overgeared x Epic Knights Compat bridges Epic Knights: Shields, Armor and Weapons
+(by Magistuarmory) and Overgeared. It adds the crafting recipes needed to forge
+Epic Knights weapons and armor using Overgeared's material system (forging, casting,
+assembly), and removes the original vanilla crafting recipes where appropriate.
 
 REQUIREMENTS
 ------------
