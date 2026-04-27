@@ -73,3 +73,12 @@ This keeps the crafting process consistent with how Overgeared handles its own g
 </a>
 </td>
 </tr></table>
+
+## A Note on AI-Assisted Development
+I was unable to get [_Epic Knights_](https://modrinth.com/mod/epic-knights-shields-armor-and-weapons) and [_Overgeared_](https://modrinth.com/mod/overgeared) running as compile-time dependencies, which meant I couldn't use their APIs directly. 
+As a result, a large number of JSON files had to be written by hand.
+A process that is highly repetitive, time-consuming, and error-prone.
+
+For this reason, I used Claude Code to assist with generating the JSON. 
+My own work on every weapon (and every material per weapon) still involved creating the blade or component texture, registering the item, and designing the forging recipe.
+The AI handled the mechanical transcription work in between.
