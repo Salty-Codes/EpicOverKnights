@@ -1,4 +1,4 @@
-Copyright (c) 2024-2025 SaltyCodes
+Copyright (c) 2026-present SaltyCodes
 All Rights Reserved
 
 This mod (EpicOverKnights) and its source code are the intellectual property of
